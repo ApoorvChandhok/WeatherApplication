@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="weatherapp.css">
+	<meta name="viewport" content="width=device-width,intial-scale=1.0" > <!--//it is to make the website resposive on mobile-->
+
+</head>
+<body>
+
+<form id="search-form">
+	<input type="search" placeholder="Enter the city name " id="search-input" required autocomplete="off "/><!--element can contain one or more of the following form elements-->
+
+	<!--Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.-->
+	<br>
+
+<button id="search-button">Search</button>
+
+</form>
+
+<main id="app-container"><!--The content inside the <main> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.The <main> tag specifies the main content of a document.-->
+<div id="location">
+  <p>-------</p>
+  </div>
+  <div id="temp">
+     <img id="temp-icon"  alt="">
+     <p><span id="temp-value">------</span><span id="temp-unit">&#176c<!--it is for converting into celcious--></span></p>
+   </div>
+   <div id="climate" >
+   	<p>-----</p>
+   </div>
+</main>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="weatherapp1.js"></script>
+</body>
+</html>
